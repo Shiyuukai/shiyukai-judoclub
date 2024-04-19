@@ -1,0 +1,367 @@
+@charset "UTF-8";
+@media screen and (min-width: 768px;) {
+    background-color: #000000;
+}
+@media (min-width: 768px) {
+    h1{
+        font-size: 10px;
+    }
+}
+html{
+    font-size: 1rem;
+    scroll-behavior: smooth;
+   
+}
+
+body{
+    font-family: 'Hiragino Kaku Gothic Pro','Meiryo','sans-serif';
+    font-size: 15px;
+    margin-top: 70px;
+     border-top: 5px solid #79a1b1 !important;
+} 
+.wrapper{
+    margin: auto 10vw;
+}
+h2{
+    font-size: 4.8rem;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.logo {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 16px;
+    }
+.heading{
+    
+    width: 600px;
+    display: flex;
+    }
+.mark{
+    margin-left: 70%;
+    margin-right: 5%;
+    margin-top: 20px;
+
+    }
+.slogan{
+    }
+.logo img {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.w_inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+.lists {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    height: 50px;
+    width: auto;
+    display: grid;
+    align-items: center;
+    padding: 0 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    object-fit: cover;
+}
+.header ul {
+    display: flex;
+    margin-bottom: 30px;
+}
+.header ul li{
+    width: 200px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+.header ul li:first-child{
+    border-left: 1px solid #ddd;
+}
+.header ul li a{
+    display: block;
+}
+.mv {
+    width: 90%;
+    height: 600px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+  }
+.item {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation: img-change 15s infinite;
+    margin-right: auto;
+    margin-left: auto;
+    }
+.item:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .item:nth-child(2) {
+    animation-delay: 5s;
+  }
+  .item:nth-child(3) {
+    animation-delay: 10s;
+  }
+  
+  .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+  }
+  .item::after {
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	box-shadow: inset 0 0 5px 5px #FFF;
+}
+
+  
+  @keyframes img-change {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }
+    30% {
+      opacity: 1;
+    }
+    40% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+
+.header_img img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+.main{
+    margin-top: 70px;
+}
+.container_service .service_block {
+    display: flex;
+    justify-content: space-between;
+}
+.container_service .service {
+    width: 300px;
+    text-align: center;
+}
+.container_service h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.container_service .service img {
+    margin-bottom: 20px;
+}
+.container_service .service .ttl {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.container_service .service .explain {
+    margin-bottom: 20px;
+}
+.container_service .service a {
+    background: #79a1b1;
+    color: #fff;
+    padding: 15px 20px 12px;
+}
+.footer{
+    margin-top: 40px;
+}
+.pp_link{
+    text-align: right;
+    margin-bottom: 7px;
+}
+.copy{
+    text-align: center;
+    background: #79a1b1;
+    color: #fff;
+    font-style: 12px;
+    padding: 7px 0 3px;
+}
+.container_service{
+    display: flex;
+    margin-top: 7px;
+}
+.contentimg{
+    width: 300px;
+    height: 200px;
+}
+.service_block{
+    width: 99%;
+    margin: auto;
+}
+.service{
+    margin-bottom: 30px;
+    margin: auto;
+}
+.service_block img{
+    border-radius: 10px;
+}
+ul{
+    list-style-type: none;
+}
+h2{
+    text-align: center;
+    border-bottom: medium solid #79a1b1;
+}
+.twitter-tweet{
+    margin: auto;
+    display: flex;
+}
+.table th,
+.table td {
+    border: 1px solid #000;
+    padding: 1em;
+}
+.table thead {
+    background-color: #2e7c9f;
+    color: #fff;
+    }
+.table tbody th:hover {
+    background-color: #ffe593;
+    font-weight: bold;
+}
+.table01 {
+    width: 100%;
+    table-layout: fixed;
+}
+.table01 thead th:nth-child(1) {
+   /*  width: 30%; */
+    .container_service: border-box;
+}
+/* 
+.th:hover {
+    font-weight: bold;
+}
+*/
+.btn {
+    border-radius: 5px;
+    background-color: #000;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .btn2 {
+    border-radius: 5px;
+    background-color: #1e90ff;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .btn3 {
+    border-radius: 5px;
+    background-color: #ee827c;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  h3 {
+    color: #505050;/*文字色*/
+    padding: 0.3em;/*文字周りの余白*/
+    display: inline-block;/*おまじない*/
+    line-height: 1.3;/*行高*/
+    background: #dbebf8;/*背景色*/
+    vertical-align: middle;
+    border-radius: 30px 0px 0px 30px;/*左側の角を丸く*/
+
+  }
+  
+  h1:before {
+    content: '●';
+    color: white;
+    margin-right: 8px;
+  }
+  
+
+
+.container .service_block .msg{
+    max-width: 70rem;
+    width: ;
+}
+.container .service_block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.map{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+.scroll{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.openbox input {
+    display: none;
+    }
+    .openbox .boxshow {
+    height: 0;
+    opacity: 0;
+    display: none;
+    
+    }
+    .inputcss:checked +.boxshow {
+    height: auto;
+    opacity: 1; 
+    display: block;
+    }
+    .openbox label {
+    padding: 5px 10px;
+    }
+
+.strengths{
+    margin-left: 17%;
+}   
+.photo{
+    display: block;
+    margin-left: 50px;
+}
+.features{
+
+    margin-top: 15px;
+    margin-left: 300px;
+}
+.service{
+    scroll-behavior: smooth;
+}
